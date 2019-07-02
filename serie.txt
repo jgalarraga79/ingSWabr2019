@@ -1,0 +1,2 @@
+﻿
+Los 3 primeros términos de la serie de Fibonacci son:1 1 2 
