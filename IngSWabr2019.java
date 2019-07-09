@@ -27,9 +27,9 @@ public class IngSWabr2019 {
         int fibo1,fibo2,i,entero;
         
         do{
-            System.out.print("Ingrese entero mayor que 1 y menor o igual que 20: ");
+            System.out.print("Ingrese entero mayor que 1 y menor o igual que 100: ");
             entero = sc.nextInt();
-        }while(entero<=1 || entero>20);   
+        }while(entero<=1 || entero>100);   
         
         FileWriter fw;
         
@@ -41,7 +41,6 @@ public class IngSWabr2019 {
 
             fw.write(fibo1 + " ");
             for(i=2;i<=entero;i++){
-                 //System.out.print
                  fw.write(fibo2 + " ");
                  fibo2 = fibo1 + fibo2;
                  fibo1 = fibo2 - fibo1;
